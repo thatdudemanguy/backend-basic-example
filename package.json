@@ -1,0 +1,22 @@
+{
+  "name": "dashboard-backend",
+  "version": "1.0.0",
+  "description": "Backend system for my personal dashboard",
+  "main": "server.js",
+  "scripts": {
+    "start": "nodemon server.js"
+  },
+  "repository": "https://github.com/thatdudemanguy/dashboard-backend",
+  "author": "Robin Van Roy",
+  "license": "ISC",
+  "dependencies": {
+    "dateformat": "^3.0.3",
+    "express": "^4.17.1",
+    "mongoose": "^5.9.7",
+    "node-fetch": "^2.6.0"
+  },
+  "devDependencies": {
+    "dotenv": "^8.2.0",
+    "nodemon": "^2.0.2"
+  }
+}
